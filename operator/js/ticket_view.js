@@ -510,6 +510,11 @@ $(document).ready(function() {
      * END Expand/collapse all messages
      */
 
+	// JDM Expand by default
+	$('#tabMessages .sp-message-collapsed').trigger('click');
+	$('.expand-messages, .collapse-messages').toggle();
+	// JDM End expand by default
+
     /*
      * Show ticket attachment previews
      */

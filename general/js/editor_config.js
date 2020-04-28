@@ -130,7 +130,7 @@
         },
 
         // Paste settings.
-        pastePlainText: false, // Don't convert pasted HTML into plain/text.
+        pastePlainText: true, // Don't convert pasted HTML into plain/text.
         pasteLinkTarget: '_blank', // Open pasted links in a new tab (consistent with link settings below).
 
         // Link settings.

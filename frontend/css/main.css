@@ -1,0 +1,20 @@
+h2.collapsable {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 15px;
+    position: relative;
+}
+
+h2.collapsable span {
+    position: absolute;
+    margin-top: -5px;
+    right: 15px;
+}
+
+h2.collapsable .fa {
+    font-size: 60%;
+}

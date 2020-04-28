@@ -130,6 +130,13 @@ $(document).ready(function () {
             .afterprint(initOverlayScrollbars.bind(null, $sidebar));
     }
 
+    // For opening/collapsing sidebar boxes
+    $(document.body).on('click', 'h3.collapsable', function() {
+        $(this).find('.arrow').toggleClass('down up');
+        $(this).find('.fa').toggleClass('fa-chevron-down fa-chevron-up');
+        $(this).next().toggle(500);
+    });
+
 });
 
 /**

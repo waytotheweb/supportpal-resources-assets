@@ -52,4 +52,12 @@ $(document).ready(function () {
         $('body').toggleClass('sp-mobile-nav-open');
     });
 
+    // For opening/collapsing sidebar boxes
+    $(document.body).on('click', 'h2.collapsable', function() {
+        $(this).find('.arrow').toggleClass('down up');
+        $(this).find('.fa').toggleClass('fa-chevron-down fa-chevron-up');
+        $(this).next().toggle(500);
+    });
+
+
 });
